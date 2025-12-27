@@ -7,7 +7,7 @@ services:
      - "3306:3306"
 
  application:
-   image: saideepthiundavalli/mynewapp:dbimage
+   image: saideepthiundavalli/mynewapp:appimage
    ports:
      - "1234:8080"
    depends_on:
